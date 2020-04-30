@@ -1,0 +1,170 @@
+      /* CSS reset */
+      body {
+        height: 1000px;
+        /* font-family: 'Baloo Bhai 2', cursive; */
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img.jpg);
+        background-size: 1500px;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        
+    }
+    
+   
+
+    .mid {
+        display: inline-block;
+        position: absolute;
+        left: 365px;
+        /* border: 2px solid green; */
+        width: 53%;
+        margin: 20px -1px;
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 35px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+        padding: 2px;
+        padding-right: 2px;
+    }
+
+    .navbar ul {
+        text-align: center;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 35px;
+        margin: 0px 5px;
+        border-radius: 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        background-color: gray;
+        color: black
+    }
+
+    img {
+        width: 85px;
+        margin-left: 21px;
+        border-radius: 50px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 5px 24px;
+        margin: 9px 8px;
+        border: 1px solid white;
+        border-radius: 30px;
+        font-size: 23px;
+        background-color: rgb(68, 0, 255);
+        background: none;
+        cursor: pointer;
+        /* font-family: 'Baloo Bhai 2', cursive; */
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+    }
+
+    .btn:hover {
+        background-color:  rgb(88, 88, 88);
+        ;
+    }
+
+    .container{
+        display: inline-block;
+        border: 2px solid white;
+        width: 40%;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        margin: 5px 350px;
+        padding: 16px 38px;
+        border-radius: 30px;
+        
+        
+    }
+    .form-group input{
+        /* font-family: 'Baloo Bhai 2', cursive; */
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        width: 350px;
+        padding: 1px;
+        padding-left: 12px;
+        border: 2px solid black;
+        margin: 20px 11px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .form-group input#g{
+        display: inline-block;
+        width: 50px;
+        background: none;
+    }
+    ::placeholder{
+        padding-left:25px ;
+    }
+    .form-group span{
+        
+        font-size: 20px;
+    }
+    .form-group input#i1{
+        margin-left: 70px;
+    }
+    .form-group input#i2{
+        margin-left: 70px;
+    }
+    .form-group input#i3{
+        margin-left: 38px;
+    }
+    .form-group input#i4{
+        margin-left: 84px;
+    }
+    .form-group span#mgo{
+        margin-left: 30px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+       background:none;
+       border-radius: 25px;
+       color: white;
+       font-size: 25px;
+       padding: 10px 30px;
+       font-family: 'Roboto', sans-serif;
+       font-style: italic;
+    }
+    .container button:hover{
+        background-color: rgb(88, 88, 88);
+    }
+   
